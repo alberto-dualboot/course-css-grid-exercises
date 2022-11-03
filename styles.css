@@ -32,7 +32,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 /*  ---- start exercise 1 ----  */
 
 .grid-1 {
@@ -116,9 +115,18 @@ body {
 }
 
 .layout-container {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 8px; 
+  display: grid;  
+  grid-template-columns:  1fr 1fr 1fr;
+  gap: 10px;
 }
 
 .tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*  ---- end exercise 4 ----  */

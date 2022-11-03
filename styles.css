@@ -15,7 +15,12 @@ body {
 }
 
 .grid {
-  border: 1px solid;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 8px;
+  display: grid;  
+  grid-template-columns:  1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .grid > * {

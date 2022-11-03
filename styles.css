@@ -76,7 +76,13 @@ body {
 .grid-3 {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 10px;
+  gap: 20px;
+}
+.grid-3 .one{
+  grid-area: 1 / 1 / span 2 / span 2;
+}
+.grid-3 .four{
+  grid-area: 4 / 2 / span 1 / span 1;
 }
 
 /*  ---- end exercise 3 ----  */
